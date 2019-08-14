@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  date_running: 2019-08-14
+  local: MyString
+  city: one
+
+two:
+  name: MyString
+  date_running: 2019-08-14
+  local: MyString
+  city: two
