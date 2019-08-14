@@ -1,9 +1,9 @@
 # API for Road Running Dates
 
-###### Return a list of Running Events Calendar
+###### List of Running Events in Curitiba - Brazil
 
 ### Usage
 
-###### Modify seeds.rb
+###### Modify seeds.rb and lib/importa.rake for other cities
 
 ###### Run: whenever --update-crontab
