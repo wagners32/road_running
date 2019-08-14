@@ -6,6 +6,4 @@
 
 ###### Modify seeds.rb
 
-###### Update crontab
-
-####### whenever --update-crontab
+###### Run: whenever --update-crontab
