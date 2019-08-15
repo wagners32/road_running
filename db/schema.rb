@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_14_223221) do
+ActiveRecord::Schema.define(version: 2019_08_15_001633) do
 
   create_table "cities", force: :cascade do |t|
     t.string "name"
@@ -33,6 +33,8 @@ ActiveRecord::Schema.define(version: 2019_08_14_223221) do
     t.integer "city_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "hour"
+    t.string "distances"
     t.index ["city_id"], name: "index_runnings_on_city_id"
   end
 
